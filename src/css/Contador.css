@@ -1,0 +1,43 @@
+.div-contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: lightpink;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.div-contador h1{
+    color: lightpink;
+    font-size: 45px;
+}
+
+.div-span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contador{
+    display: flex;
+    flex-direction: row;
+}
+
+.contador button{
+    width: 70px;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: lightpink;
+    background-color: lightpink;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 8px;
+}
+

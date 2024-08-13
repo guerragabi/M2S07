@@ -1,0 +1,45 @@
+.div-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 480px;
+    height: 120px;
+    padding: 10px;
+    border: 2px solid;
+    border-color:dodgerblue;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.div-lista h2{
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.div-lista input{
+    border: 1px solid;
+    border-color: dodgerblue;
+    background-color: white;
+    height: 1.4em;
+    width: 168px;
+    border-radius: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn button {
+    width: 80px;
+    height: 2em;
+    background-color: dodgerblue;
+    border: 2px solid;
+    border-color: dodgerblue;
+    border-radius: 10px;
+    color: white;
+    margin-right: 2px;
+}
